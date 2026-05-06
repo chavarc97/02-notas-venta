@@ -1,0 +1,21 @@
+# Web Framework & API
+fastapi
+uvicorn
+
+# Database (SQLAlchemy es el estándar para SQL en Python)
+sqlalchemy
+psycopg2-binary
+
+# AWS SDK (Indispensable para S3 y SES)
+boto3
+
+# Generación de PDF
+reportlab
+
+# Utilidades
+pydantic[email]
+python-multipart
+python-dotenv
+
+requests
+
