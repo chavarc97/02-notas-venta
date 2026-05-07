@@ -79,6 +79,6 @@ jobs:
             -e ENVIRONMENT=produccion \
             -e CATALOGO_SERVICE_URL=http://catalogo:8000 \
             -e NOTIFICACIONES_SERVICE_URL=http://notificaciones:8000 \
-            -e PUBLIC_BASE_URL=http://98.82.201.72:8000 \
+            -e PUBLIC_BASE_URL=${{ secrets.EC2_PUBLIC_URL }} \
             --restart unless-stopped \
             298572504484.dkr.ecr.us-east-1.amazonaws.com/notas-venta:latest
